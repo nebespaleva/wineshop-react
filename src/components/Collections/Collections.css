@@ -1,0 +1,144 @@
+.collections {
+    width: 100%;
+    min-height: 1038px;
+    background: #E6E3C4;
+}
+
+.coll-divider {
+    display: inline-block;
+    width: 100%;
+    margin-top: 80px;
+    border: 1px solid #998431;
+}
+
+.coll-divider-bottom {
+    border: 1px solid #998431;
+    margin-top: 60px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descr {
+    width: 493px;
+}
+
+.subtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 60px;
+}
+
+.coll-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    margin-top: 30px;
+}
+
+.descr-divider {
+    float: left;
+    width: 160px;
+    border: 1px solid #282828;
+}
+
+.coll-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 30px;
+}
+
+.table {
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+tr:not(:last-child) {
+    border-bottom: 1.5px solid #282828;
+}
+
+.coll-td:not(:last-child) {
+    border-right: 1.5px solid #282828;
+}
+
+.year {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 25px;
+}
+
+.table-descr {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+
+.inner {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.coll-btn {
+    width: 254px;
+    height: 50px;
+    background: #998431;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+}
+
+.coll-btn:hover {
+    text-shadow: 2px 2px 5px #fff;
+    color: #000;
+}
+
+.images {
+    margin-top: 60px;
+    width: 540px;
+}
+
+.head-img {
+    height: 500px;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.img-wrapper img {
+    width: 255px;
+    height: 228px;
+}

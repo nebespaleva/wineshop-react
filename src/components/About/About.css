@@ -1,0 +1,49 @@
+.about {
+    width: 100%;
+    min-height: 856px;
+    background: #282828;
+}
+
+.border {
+    display: inline-block;
+    width: 100%;
+    border: 3px solid #C4C4C4;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title {
+    text-align: center;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.divider {
+    margin-top: 40px;
+    width: 160px;
+}
+
+.text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    width: 730px;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.glass-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
